@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TySquat – Impressum / Legal Notice</title>
+  <link rel="stylesheet" href="/tysquat-legal/assets/style.css">
+</head>
+<body>
+
+<header>
+  <div class="inner">
+    <a href="/tysquat-legal/" style="text-decoration:none;">
+      <div class="logo-text">TY<span>SQUAT</span></div>
+    </a>
+    <nav>
+      <a href="/tysquat-legal/impressum/">Impressum</a>
+      <a href="/tysquat-legal/privacy/">Datenschutz</a>
+      <a href="/tysquat-legal/support/">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- Language Tabs -->
+  <div class="lang-tabs">
+    <button class="lang-tab active" onclick="switchLang('de', this)">DE</button>
+    <button class="lang-tab" onclick="switchLang('en', this)">EN</button>
+  </div>
+
+  <!-- ── DEUTSCH ── -->
+  <div class="lang-section active" data-lang="de">
+    <h1>Impressum</h1>
+    <p class="updated">Stand: 12. Juli 2026</p>
+
+    <h2>Angaben gemäß § 5 DDG</h2>
+    <div class="contact-box">
+      <p>
+        <!-- ⚠️ VOR VERÖFFENTLICHUNG AUSFÜLLEN: ladungsfähige Anschrift, kein Postfach! -->
+        Carsten Schneider<br>
+        &lt;&lt;Straße Hausnummer&gt;&gt;<br>
+        &lt;&lt;PLZ Ort&gt;&gt;<br>
+        Deutschland
+      </p>
+      <p>E-Mail: <a href="mailto:el.snyder80+tysquat@gmail.com">el.snyder80+tysquat@gmail.com</a></p>
+    </div>
+
+    <!-- Falls vorhanden, einkommentieren:
+    <h2>Umsatzsteuer-ID</h2>
+    <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE&lt;&lt;NUMMER&gt;&gt;</p>
+    -->
+
+    <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+    <p>Carsten Schneider, Anschrift wie oben.</p>
+
+    <h2>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h2>
+    <p>Wir sind nicht bereit und nicht verpflichtet, an Streitbeilegungsverfahren vor einer
+    Verbraucherschlichtungsstelle teilzunehmen (§ 36 VSBG).</p>
+
+    <h2>Geltungsbereich</h2>
+    <p>Dieses Impressum gilt für diese Webseite sowie für die iOS-App „TySquat“
+    im Apple App Store.</p>
+  </div>
+
+  <!-- ── ENGLISH ── -->
+  <div class="lang-section" data-lang="en">
+    <h1>Legal Notice (Impressum)</h1>
+    <p class="updated">Last updated: July 12, 2026</p>
+
+    <h2>Information in accordance with Section 5 DDG (German Digital Services Act)</h2>
+    <div class="contact-box">
+      <p>
+        Carsten Schneider<br>
+        &lt;&lt;street and number&gt;&gt;<br>
+        &lt;&lt;postal code, city&gt;&gt;<br>
+        Germany
+      </p>
+      <p>Email: <a href="mailto:el.snyder80+tysquat@gmail.com">el.snyder80+tysquat@gmail.com</a></p>
+    </div>
+
+    <h2>Responsible for content pursuant to Section 18 (2) MStV</h2>
+    <p>Carsten Schneider, address as above.</p>
+
+    <h2>Consumer dispute resolution</h2>
+    <p>We are neither willing nor obliged to participate in dispute resolution proceedings
+    before a consumer arbitration board (Section 36 VSBG).</p>
+
+    <h2>Scope</h2>
+    <p>This legal notice applies to this website and to the iOS app “TySquat”
+    on the Apple App Store.</p>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Carsten Schneider &nbsp;·&nbsp;
+    <a href="/tysquat-legal/impressum/">Impressum</a> &nbsp;·&nbsp;
+    <a href="/tysquat-legal/privacy/">Datenschutz</a> &nbsp;·&nbsp;
+    <a href="/tysquat-legal/support/">Support</a>
+  </p>
+</footer>
+
+<script>
+  function switchLang(lang, btn) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-tab').forEach(el => el.classList.remove('active'));
+    document.querySelector('[data-lang="' + lang + '"]').classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
